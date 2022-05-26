@@ -43,16 +43,17 @@
 // getnum();
 
 // 41://///////////////////////////////////////////////////////////////
-// function getmin(){
-//     var lowst;
-//     for(i=0; i<5; i++){
-//     var luckynum= +prompt("num");
-//         if(luckynum[i]< lowst){
-//         lowst= luckynum[i];
-//         console.log(luckynum[i]);
-// }
-// // console.log(lowst);
-// }
-// }
-// getmin();
+function getmin(){
+    var allnums=[];
+    for(i=0; i<5; i++){
+    var luckynum= +prompt("num");
+    allnums.push(luckynum);
+    }
+    var min= Math.min(luckynum[i]);
+   
+console.log(allnums);
+}
+
+getmin();
+
 
